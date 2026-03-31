@@ -1,0 +1,144 @@
+/* Configuración General */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f9;
+    margin: 0;
+    color: #333;
+}
+
+.main-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header y Botón Salir */
+.header-simple {
+    position: relative; 
+    text-align: center;
+    padding: 40px 0;
+}
+
+.header-simple h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #2c3e50;
+}
+
+.header-simple b {
+    color: #5d93e1;
+}
+
+.btn-logout-style {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    background-color: #5d93e1;
+    color: white;
+    padding: 8px 18px;
+    border-radius: 12px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 0.85em;
+    transition: 0.3s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-logout-style:hover {
+    background-color: #4a7bc7;
+    transform: translateY(-1px);
+}
+
+/* Mapa */
+.map-section {
+    margin-bottom: 30px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+/* Formulario de Reserva */
+.booking-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.booking-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.field-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.field-group label {
+    margin-bottom: 8px;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.field-group input, .field-group select {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1em;
+}
+
+/* Estilo para camiones ocupados en el select */
+.option-occupied {
+    color: #999;
+    font-style: italic;
+    background-color: #f9f9f9;
+}
+
+.full-width {
+    grid-column: span 2;
+    margin-top: 10px;
+}
+
+/* Botón Principal Estilo MUDAYA */
+.btn-main {
+    background-color: #5d93e1;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 100%;
+}
+
+.btn-main:hover {
+    background-color: #4a7bc7;
+}
+
+.admin-link-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.link-alt {
+    color: #7f8c8d;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+.link-alt:hover {
+    text-decoration: underline;
+}
